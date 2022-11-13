@@ -95,13 +95,19 @@ const Navbar = () => {
                 </p>
                 <div className="flex items-center justify-between py-4 w-full sm:w-[80%]">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 easy-in duration-300">
-                    <FaLinkedinIn />
+                    <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
+                      <FaLinkedinIn />
+                    </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 easy-in duration-300">
-                    <FaGithub />
+                    <Link href={"https://github.com/jakubstastka"}>
+                      <FaGithub />
+                    </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 easy-in duration-300">
-                    <AiOutlineMail />
+                    <Link href={"mailto:jakub@stastka.org"}>
+                      <AiOutlineMail />
+                    </Link>
                   </div>
                 </div>
               </div>
