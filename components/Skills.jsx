@@ -39,7 +39,7 @@ function Skills() {
                 <div className="grid grid-cols-2 gap-4 justify-center intems-center">
                   <div className="m-auto">
                     <Image
-                      src={`/../public/assets/skills/${skill.toLowerCase()}.png`}
+                      src={`/assets/skills/${skill.toLowerCase()}.png`}
                       alt=""
                       width={64}
                       height={64}
