@@ -79,13 +79,13 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
-                <Link href="/">
+                <Link onClick={handleNav} href="/">
                   <li className="py-4 text-sm">Home</li>
                 </Link>
-                <Link href="/#about">
+                <Link onClick={handleNav} href="/#about">
                   <li className="py-4 text-sm">About</li>
                 </Link>
-                <Link href="/#skills">
+                <Link onClick={handleNav} href="/#skills">
                   <li className="py-4 text-sm">Skills</li>
                 </Link>
               </ul>

@@ -5,8 +5,8 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 export default function Main() {
   return (
-    <div className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+    <div className="w-full h-full lg:h-screen text-center">
+      <div className="max-w-[1240px] pt-32 md:pt-15 lg:pt-0 w-full md:h-full mx-auto p-2 flex justify-center md:items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-400">
             &quot;The Only Limits Are The Ones We Impose Upon Ourselves.&quot;
@@ -37,7 +37,7 @@ export default function Main() {
             I am watching youtube tutorials for Minecraft mods. It&apos;s
             awesomesauce.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
               <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
                 <FaLinkedinIn />
