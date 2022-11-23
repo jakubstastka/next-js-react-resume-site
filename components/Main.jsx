@@ -36,9 +36,10 @@ export default function Main() {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Since I&apos;m interested in automation both in work and my free
             time, my favourite past time is playing highly technical Minecraft
-            modpacks. So when I am not reading docs for work/personal projects,
-            I am watching youtube tutorials for Minecraft mods. It&apos;s
-            awesomesauce.
+            modpacks. Also, I am a huge science fiction and fantasy nerd. My
+            favourite book series include The Expanse, The Hitchchiker&apos;s
+            Guide to the Galaxy, Lord of the Rings, Discword series by Terry
+            Pratchett, The Witcher series and many more.
           </p>
           <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
             <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
@@ -46,16 +47,16 @@ export default function Main() {
                 <FaLinkedinIn />
               </div>
             </Link>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
-              <Link href={"https://github.com/jakubstastka"}>
+            <Link href={"https://github.com/jakubstastka"}>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
                 <FaGithub />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
-              <Link href={"mailto:jakub@stastka.org"}>
+              </div>
+            </Link>
+            <Link href={"mailto:jakub@stastka.org"}>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
                 <AiOutlineMail />
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
