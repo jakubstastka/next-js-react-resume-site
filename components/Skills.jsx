@@ -28,7 +28,7 @@ function Skills() {
         <p className="text-xl tracking-widest uppercase text-emerald-700">
           Skills
         </p>
-        <h2 className="py-4">Technologies I Can Work With</h2>
+        <h2 className="py-4">Featured Technologies I Can Work With</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => {
             return (

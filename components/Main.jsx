@@ -12,9 +12,10 @@ export default function Main() {
             &quot;The Only Limits Are The Ones We Impose Upon Ourselves.&quot;
           </p>
           <h1 className="py-4 text-gray-700">
-            Hey, I&apos;m <span className="text-emerald-700">James</span>
+            Hey, I&apos;m{" "}
+            <span className="text-emerald-700">Jakub Šťástka</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Fullstack Developer</h1>
+          <h1 className="py-4 text-gray-700">a Fullstack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a Fullstack Developer specializing in building web
             applications. I have experience building complex web apps using
@@ -28,7 +29,9 @@ export default function Main() {
             <Link href={"https://elektronickynovinar.cz"}>E-Gon</Link>, a
             robotic journalist. That is my ongoing projects which aims to
             automatically write articles when provided external data sources,
-            such as 3rd parti APIs.
+            such as 3rd parti APIs. My other hobby project I am proud of is my
+            blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
+            passion for coffee.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Since I&apos;m interested in automation both in work and my free
@@ -38,11 +41,11 @@ export default function Main() {
             awesomesauce.
           </p>
           <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
-              <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
+            <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
                 <FaLinkedinIn />
-              </Link>
-            </div>
+              </div>
+            </Link>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
               <Link href={"https://github.com/jakubstastka"}>
                 <FaGithub />
