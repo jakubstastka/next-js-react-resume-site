@@ -18,24 +18,25 @@ export default function Main() {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a Fullstack Developer specializing in building web
             applications. I have experience building complex web apps using
-            stack Python + Django on backend, with TypeScript/React on frontend.
+            stack Python + Django on the backend, with TypeScript/React on the
+            front-end.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            One of my first personal project was{" "}
+            One of my first personal projects was{" "}
             <Link href={"https://elektronickynovinar.cz"}>E-Gon</Link>, a
-            robotic journalist. That is my ongoing projects which aims to
+            robotic journalist. That is my ongoing project which aims to
             automatically write articles when provided external data sources,
-            such as 3rd party APIs. My other hobby project I am proud of is my
+            such as 3rd party APIs. The other hobby project I am proud of is my
             blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
             passion for coffee.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Since I&apos;m interested in automation both in work and my free
-            time, my favourite past time is playing highly technical Minecraft
+            time, my favorite past time is playing highly technical Minecraft
             modpacks. Also, I am a huge science fiction and fantasy nerd. My
-            favourite book series include The Expanse, The Hitchchiker&apos;s
-            Guide to the Galaxy, Lord of the Rings, Discword series by Terry
-            Pratchett, The Witcher series and many more.
+            favorite book series include The Expanse, The Hitchhiker&apos;s
+            Guide to the Galaxy, Lord of the Rings, Discworld series, The
+            Witcher series, and many more.
           </p>
           <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
             <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
