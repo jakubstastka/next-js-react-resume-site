@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export default function Main() {
   return (
@@ -12,24 +11,21 @@ export default function Main() {
             &quot;The Only Limits Are The Ones We Impose Upon Ourselves.&quot;
           </p>
           <h1 className="py-4 text-gray-700">
-            Hey, I&apos;m{" "}
+            Hello, I&apos;m{" "}
             <span className="text-emerald-700">Jakub Šťástka</span>
           </h1>
           <h1 className="py-4 text-gray-700">a Fullstack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a Fullstack Developer specializing in building web
             applications. I have experience building complex web apps using
-            stack Python + Django on backend, with JavaScript/TypeScript on the
-            frontend. Currently I&apos;m working on my TypeScript and React
-            knowledge to be a better at the front-end part of fullstack
-            development.
+            stack Python + Django on backend, with TypeScript/React on frontend.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             One of my first personal project was{" "}
             <Link href={"https://elektronickynovinar.cz"}>E-Gon</Link>, a
             robotic journalist. That is my ongoing projects which aims to
             automatically write articles when provided external data sources,
-            such as 3rd parti APIs. My other hobby project I am proud of is my
+            such as 3rd party APIs. My other hobby project I am proud of is my
             blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
             passion for coffee.
           </p>

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const skills = [
@@ -40,7 +39,7 @@ function Skills() {
                   <div className="m-auto">
                     <Image
                       src={`/assets/skills/${skill.toLowerCase()}.png`}
-                      alt=""
+                      alt={skill}
                       width={64}
                       height={64}
                     />
