@@ -24,7 +24,7 @@ export default function Main() {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             One of my first personal projects was{" "}
             <Link href={"https://elektronickynovinar.cz"}>E-Gon</Link>, a
-            robotic journalist. That is my ongoing project which aims to
+            robotic journalist. That is an ongoing project which aims to
             automatically write articles when provided external data sources,
             such as 3rd party APIs. The other hobby project I am proud of is my
             blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
