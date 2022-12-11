@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Jakub Šťástka, Fullstack Developer</title>
+        <title>Jakub Šťástka, a Fullstack Developer</title>
         <meta
           name="description"
           content="Resume for Jakub Stastka, a Fullstack Developer"
