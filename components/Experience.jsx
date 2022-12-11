@@ -13,7 +13,7 @@ export default function Experience() {
             title="Software Engineer"
             company="Retino"
             date="02/2022 – 11/2022"
-            description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really cool experience."
+            description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really great, since I haven't worked that much with any front-end framework before."
           />
           <JobEntry
             title="Junior Fullstack Engineer"
