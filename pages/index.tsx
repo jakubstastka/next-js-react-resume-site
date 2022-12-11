@@ -15,7 +15,6 @@ export default function Home() {
           name="description"
           content="Resume for Jakub Stastka, a Fullstack Developer"
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <Main />

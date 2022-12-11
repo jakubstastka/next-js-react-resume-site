@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -44,8 +46,14 @@ export default function About() {
             those projects with their git repositories in the Projects section.
           </p>
         </div>
-        <div>
-          <p>Here should be photo</p>
+        <div className="flex flex-col justify-center">
+          <Image
+            src={`/assets/various/jakubstastka.jpg`}
+            alt="Yup. That's me."
+            width={300}
+            height={400}
+            className="rounded-lg shadow-xl"
+          />
         </div>
       </div>
     </div>
