@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Experience from "../components/Experience";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Main />
       <About />
+      <Experience />
       <Skills />
     </div>
   );

@@ -27,7 +27,9 @@ function Skills() {
         <p className="text-xl tracking-widest uppercase text-emerald-700">
           Skills
         </p>
-        <h2 className="py-4">Featured Technologies I Can Work With</h2>
+        <h2 className="py-4 text-gray-600">
+          Featured Technologies I Can Work With
+        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => {
             return (
@@ -35,7 +37,7 @@ function Skills() {
                 key={index}
                 className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
               >
-                <div className="grid grid-cols-2 gap-4 justify-center intems-center">
+                <div className="grid grid-cols-2 gap-4 justify-center">
                   <div className="m-auto">
                     <Image
                       src={`/assets/skills/${skill.toLowerCase()}.png`}
@@ -44,7 +46,7 @@ function Skills() {
                       height={64}
                     />
                   </div>
-                  <div className="flex flex-col items-center justify-center">
+                  <div className="flex flex-col items-center justify-center text-gray-600">
                     <h3>{skill}</h3>
                   </div>
                 </div>

@@ -48,6 +48,11 @@ const Navbar = () => {
                 About
               </li>
             </Link>
+            <Link href="/#experience">
+              <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
+                Experience
+              </li>
+            </Link>
             <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
                 Skills
@@ -90,6 +95,9 @@ const Navbar = () => {
                 </Link>
                 <Link onClick={handleNav} href="/#about">
                   <li className="py-4 text-sm">About</li>
+                </Link>
+                <Link onClick={handleNav} href="/#experience">
+                  <li className="py-4 text-sm">Experience</li>
                 </Link>
                 <Link onClick={handleNav} href="/#skills">
                   <li className="py-4 text-sm">Skills</li>
