@@ -4,6 +4,7 @@ import Experience from "../components/Experience";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
+import UpButton from "../components/UpButton";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <Experience />
       <Skills />
+      <UpButton />
     </div>
   );
 }
