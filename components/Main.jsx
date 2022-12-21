@@ -31,7 +31,7 @@ export default function Main() {
             passion for coffee.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Since I&apos;m interested in automation both in work and my free
+            Since I&apos;m interested in automation both at work and in my free
             time, my favorite past time is playing highly technical Minecraft
             modpacks. Also, I am a huge science fiction and fantasy nerd. My
             favorite book series include The Expanse, The Hitchhiker&apos;s
