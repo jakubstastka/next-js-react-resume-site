@@ -102,7 +102,7 @@ const Navbar = () => {
                   <li className="py-4 text-sm">About</li>
                 </Link>
                 <Link onClick={handleNav} href="/#projects">
-                  <li className="py-4 text-sm">Experience</li>
+                  <li className="py-4 text-sm">Projects</li>
                 </Link>
                 <Link onClick={handleNav} href="/#experience">
                   <li className="py-4 text-sm">Experience</li>
