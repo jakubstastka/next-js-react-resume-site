@@ -20,11 +20,12 @@ export default function About() {
           </p>
           <p className="py-2 text-gray-600">
             When the Covid-19 pandemic began, I took it upon myself to create a
-            piece of software that could write news articles. The data source
-            was already available, so it was only a matter of integrating API
-            and making a script to generate the text. The project grew,
-            eventually getting the name E-Gon (after the famous journalist Egon
-            Erwin Kitch) and becoming a Django web app.
+            piece of software that could write news articles automatically. The
+            data source was already available from an official source, so it was
+            only a matter of integrating the API and writing a script to
+            generate the article. The project grew, eventually getting the name
+            E-Gon (after the famous journalist Egon Erwin Kitch) and becoming a
+            Django web app.
           </p>
           <p className="py-2 text-gray-600">
             Realizing that being a developer is much more fun than being a
