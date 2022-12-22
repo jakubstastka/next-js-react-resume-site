@@ -8,7 +8,7 @@ export default function Experience() {
           Experience
         </p>
         <h2 className="py-4 text-gray-600">Who Have I Worked with?</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
           <JobEntry
             title="Software Engineer"
             company="Retino"

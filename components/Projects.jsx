@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="pb-4 italic font-light text-gray-500">
           Listed in no particular order.
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
           <ProjectEntry
             name={"piju kafe"}
             description={
