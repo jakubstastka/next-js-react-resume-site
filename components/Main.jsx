@@ -10,11 +10,11 @@ export default function Main() {
           <p className="uppercase text-sm tracking-widest text-gray-400">
             &quot;The Only Limits Are The Ones We Impose Upon Ourselves.&quot;
           </p>
-          <h1 className="py-4 text-gray-700">
+          <h1 className="pt-4 text-gray-700">
             Hello, I&apos;m{" "}
             <span className="text-emerald-700">Jakub Šťástka</span>
           </h1>
-          <h1 className="py-4 text-gray-700">a Fullstack Developer</h1>
+          <h1 className="pb-4 text-gray-700">Fullstack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a Fullstack Developer specializing in building web
             applications. I have experience building complex web apps using
