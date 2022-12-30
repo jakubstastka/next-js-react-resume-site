@@ -16,6 +16,12 @@ export default function Experience() {
             description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really great, since I haven't worked that much with any front-end framework before."
           />
           <JobEntry
+            title="Front-end Developer"
+            company="Mini Site Maestros"
+            date="12/2020 - present"
+            description="Mini Site Maestros is a web agency that focuses on delivering small static websites as a marketing solution for freelancers, tradesmen/tradeswomen to provide visibility on the web."
+          />
+          <JobEntry
             title="Junior Fullstack Engineer"
             company="Leadspicker"
             date="11/2020 - 8/2022"
