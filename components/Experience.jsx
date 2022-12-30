@@ -10,16 +10,16 @@ export default function Experience() {
         <h2 className="py-4 text-gray-600">Who Have I Worked with?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
           <JobEntry
-            title="Software Engineer"
-            company="Retino"
-            date="02/2022 – 11/2022"
-            description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really great, since I haven't worked that much with any front-end framework before."
-          />
-          <JobEntry
             title="Front-end Developer"
             company="Mini Site Maestros"
             date="12/2021 - present"
             description="Mini Site Maestros is a web agency that focuses on delivering small static websites as a marketing solution for freelancers, tradesmen/tradeswomen to provide visibility on the web."
+          />
+          <JobEntry
+            title="Software Engineer"
+            company="Retino"
+            date="02/2022 – 11/2022"
+            description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really great, since I haven't worked that much with any front-end framework before."
           />
           <JobEntry
             title="Junior Fullstack Engineer"
