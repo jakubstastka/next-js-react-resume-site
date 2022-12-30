@@ -12,7 +12,7 @@ export default function Experience() {
           <JobEntry
             title="Front-end Developer"
             company="Mini Site Maestros"
-            date="12/2021 - present"
+            date="05/2022 - present"
             description="Mini Site Maestros is a web agency that focuses on delivering small static websites as a marketing solution for freelancers, tradesmen/tradeswomen to provide visibility on the web."
           />
           <JobEntry
