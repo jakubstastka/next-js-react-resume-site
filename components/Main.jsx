@@ -19,7 +19,8 @@ export default function Main() {
             I&apos;m a Fullstack Developer specializing in building web
             applications. I have experience building complex web apps using
             stack Python + Django on the backend, with TypeScript/React on the
-            front-end.
+            front-end, including working with popular front-end frameworks, such
+            as Next.JS and Gatsby.JS.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             One of my first personal projects was{" "}
