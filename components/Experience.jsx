@@ -10,7 +10,13 @@ export default function Experience() {
         <h2 className="py-4 text-gray-600">Who Have I Worked with?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
           <JobEntry
-            title="Front-end Developer"
+            title="Python Developer"
+            company="SKOUMAL"
+            date="1/2023 - present"
+            description="Studio SKOUMAL specializes in developing web and mobile applications. Also provides services like UX analysis and analytics."
+          />
+          <JobEntry
+            title="Front-End Developer"
             company="Mini Site Maestros"
             date="11/2022 - present"
             description="Mini Site Maestros is a web agency that focuses on delivering small static websites as a marketing solution for freelancers, tradesmen/tradeswomen to provide visibility on the web."
