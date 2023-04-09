@@ -18,9 +18,8 @@ export default function Main() {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I&apos;m a Fullstack Developer specializing in building web
             applications. I have experience building complex web apps using
-            stack Python + Django on the backend, with TypeScript/React on the
-            front-end, including working with popular front-end frameworks, such
-            as Next.JS and Gatsby.JS.
+            stack Python + Django on the back-end, with React/Vue front-ends, 
+            also using meta frameworks such as Next.js or Gatsby.JS.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             One of my first personal projects was{" "}
@@ -29,7 +28,8 @@ export default function Main() {
             automatically write articles when provided external data sources,
             such as 3rd party APIs. The other hobby project I am proud of is my
             blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
-            passion for coffee.
+            passion for coffee. Recently I have developed <Link href={"https://blbyotazky.cz"}>blbý otázky</Link>, 
+            that answers &apos;stupid&apos; questions using ChatGPT.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Since I&apos;m interested in automation both at work and in my free

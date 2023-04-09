@@ -39,9 +39,8 @@ export default function About() {
           </p>
 
           <p className="py-2 text-gray-600">
-            My experience includes server management, knowledge of technologies
-            such as PostgreSQL, Nginx, Git, Docker, and many more. I use the
-            Linux operating system.
+            My experience includes Linux server management, knowledge of technologies
+            such as PostgreSQL, Nginx, Git, Docker, and many more.
           </p>
         </div>
         <div className="flex flex-col justify-center">

@@ -12,6 +12,13 @@ export default function Projects() {
           Listed in no particular order.
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
+        <ProjectEntry
+            name={"blbý otázky"}
+            description={
+              "A place for 'stupid' questions answered by ChatGPT. A web fullstack app using decoupled Next.js with Tailwind and Django with Django REST Framework."
+            }
+            link={"https://pijukafe.cz"}
+          />
           <ProjectEntry
             name={"piju kafe"}
             description={
