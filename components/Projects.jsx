@@ -17,7 +17,7 @@ export default function Projects() {
             description={
               "A place for 'stupid' questions answered by ChatGPT. A web fullstack app using decoupled Next.js with Tailwind and Django with Django REST Framework."
             }
-            link={"https://pijukafe.cz"}
+            link={"https://blbyotazky.cz"}
           />
           <ProjectEntry
             name={"piju kafe"}
