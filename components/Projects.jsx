@@ -22,7 +22,7 @@ export default function Projects() {
           <ProjectEntry
             name={"piju kafe"}
             description={
-              "A coffee blog written in Next.js/React/Tailwind, with markdown files as a CMS. Hosted on serverless app platform in the cloud."
+              "A coffee blog written in Next.js/React/Tailwind, with markdown files as a simple CMS. Currently undergoing a more robust CMS integration."
             }
             link={"https://pijukafe.cz"}
           />
