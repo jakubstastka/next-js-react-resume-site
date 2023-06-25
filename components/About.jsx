@@ -13,9 +13,9 @@ export default function About() {
           </div>
           <div className="text-gray-300 space-y-5">
             <div>
-              "Typical" isn't really my style. You see, I spent over a decade in
+              &lsquo;Typical&rsquo; isn&apos;t really my style. You see, I spent over a decade in
               journalism before swapping my pen for a keyboard. Always the tech
-              enthusiast, I've been dabbling in web development since 2001.
+              enthusiast, I&apos;ve been dabbling in web development since 2001.
               Thank the good folks at Počítač pro každého magazine for that
               initial spark. Even while I was penning articles, my mind was busy
               exploring automation potential, thinking about how I could get
@@ -32,10 +32,10 @@ export default function About() {
               blooming into a fully-fledged Django web app.
             </div>
             <div>
-              There's something intoxicating about the life of a developer, a
+              There&apos;s something intoxicating about the life of a developer, a
               thrill that journalism could never quite match. So I traded in my
               press badge for a software engineering career, specializing in web
-              application development. These days, you'll find me juggling
+              application development. These days, you&apos;ll find me juggling
               Django, HTML, CSS (Bootstrap, Tailwind), and
               TypeScript/JavaScript, with a soft spot for React.
             </div>
@@ -43,7 +43,7 @@ export default function About() {
               Alongside my newfound love for development, I also dabbled with
               the art of Linux server management, and familiarized myself with a
               smorgasbord of technologies including PostgreSQL, Nginx, Git,
-              Docker, and more. But that's enough about me. Let's talk about
+              Docker, and more. But that&apos;s enough about me. Let&apos;s talk about
               what I can do for you.
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function About() {
         <div className="flex flex-col justify-center">
           <Image
             src={`/assets/various/jakubstastka.jpg`}
-            alt="Yup. That's me."
+            alt="Yup. That&apos;s me."
             width={300}
             height={400}
             className="rounded-lg shadow-xl"

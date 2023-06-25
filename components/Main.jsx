@@ -13,31 +13,31 @@ export default function Main() {
           </div>
           <div className="text-justify py-1 md:py-4 max-w-[70%] m-auto space-y-5 pt-5">
             <div>
-              "Full-stack Developer" isn't just a fancy title we like to throw
+              &lsquo;Full-stack Developer&rsquo; isn&apos;t just a fancy title we like to throw
               around. At our company, it means plunging headfirst into both web
               and desktop applications, and coming out with something
-              spectacular. We've mastered the art of spinning complex web apps
+              spectacular. We&apos;ve mastered the art of spinning complex web apps
               into existence, juggling Python and Django for back-end, while
-              pulling some React or Vue strings for front-end. You've heard of
+              pulling some React or Vue strings for front-end. You&apos;ve heard of
               Next.js or Gatsby.js? Cute. We call them Tuesday.
             </div>
             <div>
-              We're no strangers to the grittier side of things. Deploying apps?
+              We&apos;re no strangers to the grittier side of things. Deploying apps?
               We do it before breakfast, often involving containerization.
               Building CD/CI pipelines? A walk in the park. Managing Linux
-              servers? It's like brushing our teeth. But don't worry, we won't
+              servers? It&apos;s like brushing our teeth. But don&apos;t worry, we won&apos;t
               bore you with the details.
             </div>
             <div>
               Tired of the ordinary? Let us intrigue you. When it comes to
-              creativity, we're like a constantly brewing pot of coffee -
-              there's always something fresh and exciting coming up. Think about
+              creativity, we&apos;re like a constantly brewing pot of coffee -
+              there&apos;s always something fresh and exciting coming up. Think about
               it: your next app could be our new thrill, our next challenge.
               Just imagine the thrill of seeing your idea turned into reality,
               wrapped up with all the coding finesse we can muster.
             </div>
             <div>
-              So why wait? Jump aboard and let's concoct something extraordinary
+              So why wait? Jump aboard and let&apos;s concoct something extraordinary
               together.
             </div>
           </div>

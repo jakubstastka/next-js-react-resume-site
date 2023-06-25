@@ -21,13 +21,13 @@ export default function Experience() {
             title="Front-End Developer"
             company="Mini Site Maestros"
             date="11/2022 - present"
-            description="Mini Site Maestros is a web agency that focuses on delivering small static websites as a marketing solution for freelancers, tradesmen/tradeswomen to provide visibility on the web."
+            description="Mini Site Maestros is a web agency that focuses on delivering small static websites as a marketing solution for freelancers, tradesmen or tradeswomen to provide visibility on the web."
           />
           <JobEntry
             title="Software Engineer"
             company="Retino"
             date="02/2022 – 11/2022"
-            description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really great, since I haven't worked that much with any front-end framework before."
+            description="Retino is a SaaS that helps e-shops provide their customers better returns experience. I got to do more work on frontend, which was a really great, since I haven&apos;t worked that much with any front-end framework before."
           />
           <JobEntry
             title="Junior Fullstack Engineer"
