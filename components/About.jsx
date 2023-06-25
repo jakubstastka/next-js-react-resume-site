@@ -9,7 +9,7 @@ export default function About() {
             About
           </p>
           <div className="text-4xl text-extrabold py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 uppercase pb-5">
-            The "Stastka" in Stastka Engineering
+            The &ldquo;Stastka&rdquo; in Stastka Engineering
           </div>
           <div className="text-gray-300 space-y-5">
             <div>

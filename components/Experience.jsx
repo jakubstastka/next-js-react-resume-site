@@ -8,7 +8,7 @@ export default function Experience() {
           Experience
         </p>
         <div className="text-4xl text-extrabold py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 uppercase pb-5">
-          On the Record: The Companies We've Served
+          On the Record: The Companies We&apos;ve Served
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
           <JobEntry
