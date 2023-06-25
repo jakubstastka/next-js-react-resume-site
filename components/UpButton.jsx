@@ -7,7 +7,7 @@ export default function UpButton() {
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <div className="flex justify-center">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
               <HiOutlineChevronDoubleUp
                 className="m-auto text-emerald-700"
                 size={20}

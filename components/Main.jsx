@@ -36,17 +36,17 @@ export default function Main() {
           </p>
           <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
             <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
                 <FaLinkedinIn />
               </div>
             </Link>
             <Link href={"https://github.com/jakubstastka"}>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
                 <FaGithub />
               </div>
             </Link>
             <Link href={"mailto:jakub@stastka.org"}>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 easy-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
                 <AiOutlineMail />
               </div>
             </Link>

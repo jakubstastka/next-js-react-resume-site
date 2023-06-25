@@ -39,27 +39,27 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
+              <li className="ml-10 text-sm uppercase">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
+              <li className="ml-10 text-sm uppercase">
                 About
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
+              <li className="ml-10 text-sm uppercase">
                 Projects
               </li>
             </Link>
             <Link href="/#experience">
-              <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
+              <li className="ml-10 text-sm uppercase">
                 Experience
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:underline hover:decoration-dotted">
+              <li className="ml-10 text-sm uppercase">
                 Skills
               </li>
             </Link>
@@ -116,17 +116,17 @@ const Navbar = () => {
                   Lets get in touch
                 </p>
                 <div className="flex items-center justify-between py-4 w-full sm:w-[80%]">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 easy-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                     <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
                       <FaLinkedinIn />
                     </Link>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 easy-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                     <Link href={"https://github.com/jakubstastka"}>
                       <FaGithub />
                     </Link>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 easy-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                     <Link href={"mailto:jakub@stastka.org"}>
                       <AiOutlineMail />
                     </Link>
