@@ -16,10 +16,13 @@ export default function Main() {
           </h1>
           <h1 className="pb-4 text-gray-700">Fullstack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a Fullstack Developer specializing in building web
+            I&apos;m a Fullstack Developer specializing in building both web and desktop
             applications. I have experience building complex web apps using
             stack Python + Django on the back-end, with React/Vue front-ends, 
             also using meta frameworks such as Next.js or Gatsby.JS.
+          </p>
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+            My experience includes deploying apps using solutions requiring containerization, building CD/CI pipelines, managing Linux servers.
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             One of my first personal projects was{" "}
@@ -30,14 +33,6 @@ export default function Main() {
             blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
             passion for coffee. Recently I have developed <Link href={"https://blbyotazky.cz"}>blbý otázky</Link>, 
             that answers &apos;stupid&apos; questions using ChatGPT.
-          </p>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Since I&apos;m interested in automation both at work and in my free
-            time, my favorite past time is playing highly technical Minecraft
-            modpacks. Also, I am a huge science fiction and fantasy nerd. My
-            favorite book series include The Expanse, The Hitchhiker&apos;s
-            Guide to the Galaxy, Lord of the Rings, Discworld series, The
-            Witcher series, and many more.
           </p>
           <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
             <Link href={"https://www.linkedin.com/in/jakubstastka/"}>

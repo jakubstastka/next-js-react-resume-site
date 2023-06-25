@@ -39,12 +39,6 @@ export default function Experience() {
             date="7/2020 - 10/2020"
             description="AMP X was my first real programming experience in the sense that I was working on a larger project. I got to collaborate with colleagues using git, proposing solutions, and debugging as an intern."
           />
-          <JobEntry
-            title="Journalist/Data Analyst"
-            company="VLTAVA-LABE-MEDIA, a. s."
-            date="8/2009 - 10/2020"
-            description="I began developing my custom tools in Python when still working as a journalist. I worked as a writer, editor-in-chief, online news editor, and data analyst for data-driven journalism."
-          />
         </div>
       </div>
     </div>
