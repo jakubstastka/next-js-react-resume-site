@@ -4,52 +4,66 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export default function Main() {
   return (
-    <div className="w-full h-full lg:h-screen text-center">
-      <div className="max-w-[1240px] pt-32 md:pt-15 lg:pt-0 w-full md:h-full mx-auto p-2 flex justify-center md:items-center">
-        <div>
-          <p className="uppercase text-sm tracking-widest text-gray-400">
-            &quot;The Only Limits Are The Ones We Impose Upon Ourselves.&quot;
-          </p>
-          <h1 className="pt-4 text-gray-700">
-            Hello, I&apos;m{" "}
-            <span className="text-emerald-700">Jakub Šťástka</span>
-          </h1>
-          <h1 className="pb-4 text-gray-700">Fullstack Developer</h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I&apos;m a Fullstack Developer specializing in building both web and desktop
-            applications. I have experience building complex web apps using
-            stack Python + Django on the back-end, with React/Vue front-ends, 
-            also using meta frameworks such as Next.js or Gatsby.JS.
-          </p>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            My experience includes deploying apps using solutions requiring containerization, building CD/CI pipelines, managing Linux servers.
-          </p>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            One of my first personal projects was{" "}
-            <Link href={"https://elektronickynovinar.cz"}>E-Gon</Link>, a
-            robotic journalist. That is an ongoing project which aims to
-            automatically write articles when provided external data sources,
-            such as 3rd party APIs. The other hobby project I am proud of is my
-            blog <Link href={"https://pijukafe.cz"}>piju kafe</Link>, about my
-            passion for coffee. Recently I have developed <Link href={"https://blbyotazky.cz"}>blbý otázky</Link>, 
-            that answers &apos;stupid&apos; questions using ChatGPT.
-          </p>
-          <div className="flex items-center justify-between pb-5 max-w-[330px] m-auto py-4">
-            <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
-                <FaLinkedinIn />
-              </div>
-            </Link>
-            <Link href={"https://github.com/jakubstastka"}>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
-                <FaGithub />
-              </div>
-            </Link>
-            <Link href={"mailto:jakub@stastka.org"}>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer">
-                <AiOutlineMail />
-              </div>
-            </Link>
+    <div className="pt-5 text-center text-gray-900 ">
+      <div className="max-w-[1240px] pt-0 w-full md:h-full mx-auto p-2 flex justify-center md:items-center">
+        <div className="bg-gradient-to-r from-blue-400 to-emerald-400 rounded-2xl p-1 md:p-10 sm:pt-2">
+          <div className="lg:text-9xl md:text-4xl text-3xl font-bold">
+            <div>STASTKA</div>
+            <div>ENGINEERING</div>
+          </div>
+          <div className="text-justify py-1 md:py-4 max-w-[70%] m-auto space-y-5 pt-5">
+            <div>
+              "Full-stack Developer" isn't just a fancy title we like to throw
+              around. At our company, it means plunging headfirst into both web
+              and desktop applications, and coming out with something
+              spectacular. We've mastered the art of spinning complex web apps
+              into existence, juggling Python and Django for back-end, while
+              pulling some React or Vue strings for front-end. You've heard of
+              Next.js or Gatsby.js? Cute. We call them Tuesday.
+            </div>
+            <div>
+              We're no strangers to the grittier side of things. Deploying apps?
+              We do it before breakfast, often involving containerization.
+              Building CD/CI pipelines? A walk in the park. Managing Linux
+              servers? It's like brushing our teeth. But don't worry, we won't
+              bore you with the details.
+            </div>
+            <div>
+              Tired of the ordinary? Let us intrigue you. When it comes to
+              creativity, we're like a constantly brewing pot of coffee -
+              there's always something fresh and exciting coming up. Think about
+              it: your next app could be our new thrill, our next challenge.
+              Just imagine the thrill of seeing your idea turned into reality,
+              wrapped up with all the coding finesse we can muster.
+            </div>
+            <div>
+              So why wait? Jump aboard and let's concoct something extraordinary
+              together.
+            </div>
+          </div>
+
+          <div className="flex items-center justify-around pb-5 m-auto py-4 rounded-2xl space-x-5">
+            <div className="bg-gray-900 p-5 rounded-lg">
+              <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
+                <div>
+                  <FaLinkedinIn className="text-emerald-400 text-3xl" />
+                </div>
+              </Link>
+            </div>
+            <div className="bg-gray-900 p-5 rounded-lg">
+              <Link href={"https://github.com/jakubstastka"}>
+                <div>
+                  <FaGithub className="text-emerald-400 text-3xl" />
+                </div>
+              </Link>
+            </div>
+            <div className="bg-gray-900 p-5 rounded-lg">
+              <Link href={"mailto:jakub@stastka.org"}>
+                <div>
+                  <AiOutlineMail className="text-emerald-400 text-3xl" />
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

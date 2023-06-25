@@ -4,14 +4,16 @@ export default function Projects() {
   return (
     <div id="projects" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-emerald-700">
+        <p className="text-xl tracking-widest uppercase text-gray-600">
           Projects
         </p>
-        <h2 className="py-4 text-gray-600">Things I Have Made</h2>
-        <div className="pb-4 italic font-light text-gray-500">
+        <div className="text-4xl text-extrabold py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 uppercase pb-5">
+            Showcase of personal projects
+        </div>
+        <div className="pb-4 italic font-light text-gray-400">
           Listed in no particular order.
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <ProjectEntry
             name={"blbý otázky"}
             description={
@@ -36,7 +38,7 @@ export default function Projects() {
           <ProjectEntry
             name={"Wedding Invite"}
             description={
-              "I used React and framework Gatsby.js to generate a simple static website inviting friends & family to my own wedding. Written using Gatsby.js/React/Tailwind."
+              "I used React and framework Gatsby.js to generate a simple static website inviting friends & family to my own wedding. Written using Gatsby.js, React, Tailwind."
             }
             link={"https://svatba.stastka.xyz"}
           />

@@ -6,24 +6,20 @@ import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import UpButton from "../components/UpButton";
+import Layout from "../components/Layout"
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Jakub Šťástka, a Fullstack Developer</title>
-        <meta
-          name="description"
-          content="Resume for Jakub Stastka, a Fullstack Developer"
-        />
-      </Head>
-      <Navbar />
-      <Main />
-      <About />
-      <Projects />
-      <Experience />
-      <Skills />
-      <UpButton />
-    </div>
+    <Layout>
+      <div>
+        {/* <Navbar /> */}
+        <Main />
+        <About />
+        <Projects />
+        <Experience />
+        <Skills />
+        <UpButton />
+      </div>
+    </Layout>
   );
 }

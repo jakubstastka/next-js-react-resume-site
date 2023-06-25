@@ -4,10 +4,12 @@ export default function Experience() {
   return (
     <div id="experience" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-emerald-700">
+        <p className="text-xl tracking-widest uppercase text-gray-600">
           Experience
         </p>
-        <h2 className="py-4 text-gray-600">Who Have I Worked with?</h2>
+        <div className="text-4xl text-extrabold py-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 uppercase pb-5">
+          On the Record: The Companies We've Served
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 text-gray-600 gap-4">
           <JobEntry
             title="Python Developer"
