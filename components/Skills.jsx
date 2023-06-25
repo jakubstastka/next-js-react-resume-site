@@ -10,7 +10,6 @@ const skills = [
   {"icon": <SiTypescript size={50} />, "skill": "TypeScript"},
   {"icon": <SiReact size={50} />, "skill": "React"},
   {"icon": <SiNextdotjs size={50} />, "skill": "Next.js"},
-  {"icon": <SiTailwindcss size={50} />, "skill": "Python"},
   {"icon": <SiTailwindcss size={50} />, "skill": "Tailwind"},
   {"icon": <SiDigitalocean size={50} />, "skill": "DigitalOcean"},
   {"icon": <SiAmazonaws size={50} />, "skill": "AWS"},
@@ -31,7 +30,7 @@ function Skills() {
           Featured Technologies I Use
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {skills.map((skill, index) => {
+          {skills.map((entry, index) => {
             return (
               <div
                 key={index}
@@ -39,10 +38,10 @@ function Skills() {
               >
                 <div className="grid grid-cols-2 gap-4 justify-center">
                   <div className="m-auto w-30 h-30 text-gray-600">
-                    {skill.icon}
+                    {entry.icon}
                   </div>
                   <div className="flex flex-col items-center justify-center text-gray-600">
-                    <div className="font-light">{skill.skill}</div>
+                    <div className="font-light">{entry.skill}</div>
                   </div>
                 </div>
               </div>
