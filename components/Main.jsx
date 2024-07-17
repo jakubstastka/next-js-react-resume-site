@@ -41,7 +41,7 @@ export default function Main() {
               together.
             </div>
           </div>
-
+          {/* 
           <div className="flex items-center justify-around pb-5 m-auto py-4 rounded-2xl space-x-5">
             <div className="bg-gray-900 p-5 rounded-lg">
               <Link href={"https://www.linkedin.com/in/jakubstastka/"}>
@@ -65,6 +65,7 @@ export default function Main() {
               </Link>
             </div>
           </div>
+          */}
         </div>
       </div>
     </div>

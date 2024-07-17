@@ -14,9 +14,9 @@ export default function Home() {
       <div>
         {/* <Navbar /> */}
         <Main />
-        <About />
-        <Projects />
-        <Experience />
+        {/* <About /> */}
+        {/* <Projects /> */}
+        {/* <Experience /> */}
         <Skills />
         <UpButton />
       </div>
